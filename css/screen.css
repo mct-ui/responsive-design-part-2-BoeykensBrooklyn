@@ -584,7 +584,7 @@ a:focus {
   color: #7373f5;
 }
 
-.c-link-cta::before {
+.c-link-cta::after {
   content: '';
   display: block;
   position: absolute;
