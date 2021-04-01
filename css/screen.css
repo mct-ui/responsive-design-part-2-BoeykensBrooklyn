@@ -205,6 +205,11 @@ a:focus {
   padding: 45px;
 }
 
+.o-row--gradient {
+  background: linear-gradient(45deg, #5051db, #3887f7);
+  color: white;
+}
+
 /* size modifiers */
 
 .o-row--lg {
@@ -609,6 +614,21 @@ a:focus {
 .c-link-cta:hover::after {
   transform: scaleX(1);
   background-color: #3e3ea8;
+}
+
+/* inversed */
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+  color: #fff;
+}
+
+.c-link-cta--inverse::after {
+  background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::after {
+  background-color: #fff;
 }
 
 /*------------------------------------*\
